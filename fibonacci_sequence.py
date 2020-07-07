@@ -2,11 +2,11 @@
 
 
 def fib_seq(n):
-    a = 1
-    b = 2
+    a = 0
+    b = 1
 
-    if n == 1:
-        print(a)
+    if n < 1:
+        print(n)
 
     else:
         print(a)
@@ -16,7 +16,7 @@ def fib_seq(n):
             c = a + b
             a = b
             b = c
-            print(a + b)
+            print(c)
 
 
 # to print out a fibonacci sequence of 10 numbers
